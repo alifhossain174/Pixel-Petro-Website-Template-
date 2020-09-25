@@ -1,0 +1,461 @@
+@media (max-width: 575.98px) {
+
+	/*Menu Part Start*/
+	.navbar-light .navbar-nav .nav-link {
+		font-size: 12px;
+	}
+
+	.navbar-toggler {
+		background: rgba(2, 135, 148, 0.6)
+	}
+
+	.navbar-light .navbar-nav {
+		text-align: center;
+	}
+	.navbar-nav{
+		background: rgba(0, 0, 0, 0.6)
+	}
+	/*Menu Part End*/
+
+
+
+	/*Banner Part Start*/
+	.banner_text h1 {
+		font-size: 24px;
+		margin-right: 20px;
+	}
+	.banner_text h2 {
+		font-size: 24px;
+		margin-right: 20px;
+	}
+	.slide1,.slide2,.slide3{
+		background-position: center center;
+		height: 600px;
+	}
+	/*Banner Part End*/
+
+
+
+
+	/*About Us start*/
+	.body1_text p {
+		width: 85%;
+		margin: auto;
+		margin-bottom: 20px;
+		font-size: 18px;
+	}
+	.body1_text h2{
+		padding-left: 38px;
+	}
+	.about_text_p{
+		margin-bottom: 30px;
+	}
+	.body1_image{
+		padding-bottom: 2rem;
+	}
+	.body1_text{
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+	}
+	.body1_image{
+		text-align: center;
+	}
+	/*About Us End*/
+
+
+
+
+
+	/*Our Service CSS Start*/
+	.body2_content .body2_para p {
+		width: 75%;
+	}
+	/*our Service CSS End*/
+
+
+	
+	/*	Our Work start*/
+
+	.body3_header p{
+		width: 100%
+	}
+	.filter_overlay .filter_overlay_text h5{
+		font-size: 1rem;
+	}
+	.filter_overlay .filter_overlay_text i{
+		font-size: 1rem;
+	}
+	.filter_overlay .filter_overlay_text h6{
+		font-size: 1rem;
+	}
+	.body3_content{
+		padding-bottom: 4rem;
+	}
+	/*Our Work End*/
+
+
+
+
+	/*our News Part start*/
+	.body4_text p {
+		width: 68%;
+	}
+
+	.body4_text h4 {
+		width: 68%;
+	}
+
+	.body4_text .bton {
+		width: 68%;
+	}
+	/*our news Part End*/
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	
+	
+	/*Menu Part Start*/
+	.navbar-light .navbar-nav .nav-link {
+		font-size: 14px;
+	}
+	.navbar-toggler {
+		background: rgba(2, 135, 148, 0.6);
+	}
+
+	.navbar-light .navbar-nav {
+		text-align: center;
+	}
+	.navbar-nav{
+		background: rgba(0, 0, 0, 0.6);
+	}
+	/*Menu Part End*/
+
+
+
+	/*Banner Part Start*/
+	.banner_text h1 {
+		font-size: 26px;
+		margin-right: 20px;
+	}
+	.banner_text h2 {
+		font-size: 26px;
+		margin-right: 20px;
+	}
+	.slide1,.slide2,.slide3{
+		background-position: center center;
+		height: 650px;
+	}
+	/*Banner Part End*/
+
+
+
+
+	/*About Us start*/
+	.body1_text p {
+		width: 90%;
+		margin: auto;
+		margin-bottom: 20px;
+		font-size: 18px;
+	}
+	.body1_text h2{
+		padding-left: 25px;
+	}
+	.about_text_p{
+		margin-bottom: 30px;
+	}
+	.body1_image{
+		padding-bottom: 2rem;
+	}
+	.body1_text{
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+	}
+	.body1_image{
+		text-align: center;
+	}
+	/*About Us End*/
+
+
+
+
+
+	/*Our Service CSS Start*/
+	.body2_content .body2_para p {
+		width: 85%;
+	}
+	/*our Service CSS End*/
+
+
+	
+	/*	Our Work start*/
+
+	.body3_header p{
+		width: 100%
+	}
+	.filter_overlay .filter_overlay_text h5{
+		font-size: 1.1rem;
+	}
+	.filter_overlay .filter_overlay_text i{
+		font-size: 1.1rem;
+	}
+	.filter_overlay .filter_overlay_text h6{
+		font-size: 1.1rem;
+	}
+	.body3_content{
+		padding-bottom: 3rem;
+	}
+	/*Our Work End*/
+
+
+
+
+	/*our News Part start*/
+	.body4_text p {
+		width: 68%;
+	}
+
+	.body4_text h4 {
+		width: 68%;
+	}
+
+	.body4_text .bton {
+		width: 68%;
+	}
+	/*our news Part End*/
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	
+	
+	/*Menu Part Start*/
+	.navbar-light .navbar-nav .nav-link {
+		font-size: 15px;
+	}
+	.navbar-toggler {
+		background: rgba(2, 135, 148, 0.6);
+	}
+
+	.navbar-light .navbar-nav {
+		text-align: center;
+	}
+	.navbar-nav{
+		background: rgba(0, 0, 0, 0.6);
+	}
+	/*Menu Part End*/
+
+
+
+	/*Banner Part Start*/
+	.banner_text h1 {
+		font-size: 28px;
+		margin-right: 20px;
+	}
+	.banner_text h2 {
+		font-size: 28px;
+		margin-right: 20px;
+	}
+	.slide1,.slide2,.slide3{
+		background-position: center center;
+		height: 700px;
+	}
+	/*Banner Part End*/
+
+
+
+
+	/*About Us start*/
+	.body1_text{
+		padding-top: 6rem;
+	}
+	.body1_text p {
+		width: 90%;
+		margin: auto;
+		margin-bottom: 20px;
+		font-size: 18px;
+	}
+	.body1_text h2{
+		padding-left: 35px;
+	}
+	.about_text_p{
+		margin-bottom: 30px;
+	}
+	.body1_image{
+		padding-bottom: 2.5rem;
+	}
+	.body1_text{
+		padding-top: 1rem;
+		padding-bottom: 1.5rem;
+	}
+	.body1_image{
+		text-align: center;
+	}
+	/*About Us End*/
+
+
+
+
+
+	/*Our Service CSS Start*/
+	.body2_content .body2_para p {
+		width: 60%;
+	}
+	/*our Service CSS End*/
+
+
+	
+	/*	Our Work start*/
+
+	.body3_header p{
+		width: 100%
+	}
+	.filter_overlay .filter_overlay_text h5{
+		font-size: 1.1rem;
+	}
+	.filter_overlay .filter_overlay_text i{
+		font-size: 1.1rem;
+	}
+	.filter_overlay .filter_overlay_text h6{
+		font-size: 1.1rem;
+	}
+	.body3_content{
+		padding-bottom: 3rem;
+	}
+	/*Our Work End*/
+
+
+
+
+	/*our News Part start*/
+	.body4_text p {
+		width: 54%;
+		font-size: .8rem;
+	}
+
+	.body4_text h4 {
+		width: 54%;
+		font-size: .9rem;
+	}
+	.body4_text .bton {
+		width: 54%;
+	}
+	/*our news Part End*/
+	
+	
+	
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1023px) {
+	
+	
+	/*Menu Part Start*/
+	.navbar-light .navbar-nav .nav-link {
+		font-size: 15px;
+	}
+	.navbar-toggler {
+		background: rgba(2, 135, 148, 0.6);
+	}
+
+	.navbar-light .navbar-nav {
+		text-align: center;
+	}
+	/*Menu Part End*/
+
+
+
+	/*Banner Part Start*/
+	.banner_text h1 {
+		font-size: 28px;
+		margin-right: 20px;
+	}
+	.banner_text h2 {
+		font-size: 28px;
+		margin-right: 20px;
+	}
+	.slide1,.slide2,.slide3{
+		background-position: center center;
+		height: 700px;
+	}
+	/*Banner Part End*/
+
+
+
+
+	/*About Us start*/
+	.body1_text p {
+		margin: auto;
+		font-size: 14px;
+		width: 80%;
+	}
+	.body1_text h2{
+		padding-left: 46px;
+	}
+	.about_text_p{
+		margin-bottom: 20px;
+	}
+	.body1_text{
+		padding-top: 4.5rem;
+	}
+	.body1_image{
+		text-align: center;
+	}
+	/*About Us End*/
+
+
+
+
+
+	/*Our Service CSS Start*/
+	.body2_content .body2_para p {
+		width: 95%;
+	}
+	/*our Service CSS End*/
+
+
+	
+	/*	Our Work start*/
+
+	.body3_header p{
+		width: 100%
+	}
+	.filter_overlay .filter_overlay_text h5{
+		font-size: 1rem;
+	}
+	.filter_overlay .filter_overlay_text i{
+		font-size: 1rem;
+	}
+	.filter_overlay .filter_overlay_text h6{
+		font-size: 1rem;
+	}
+	.body3_content{
+		padding-bottom: 3rem;
+	}
+	/*Our Work End*/
+
+
+
+
+	/*our News Part start*/
+	.body4_text p{
+		width: 40%;
+		font-size: .8rem;
+	}
+	.body4_text h4{
+		width: 40%;
+		font-size: 1rem;
+	}
+	.body4_text .bton{
+		width: 40%;
+	}
+	/*our news Part End*/
+	
+	
+	
+}
+
+
+

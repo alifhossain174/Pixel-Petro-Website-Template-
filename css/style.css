@@ -1,0 +1,505 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ol,ul{
+	list-style: none;
+}
+.clr{
+	clear: both;
+}
+body{
+	scroll-behavior: smooth;
+}
+/*End of Common CSS*/
+
+
+
+/*Navbar CSS Start*/
+.navbar-light .navbar-nav .nav-link{
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Exo', sans-serif;
+	font-weight: 700;
+	font-size: 17px;
+	border: 2px solid transparent;
+	padding: 0.625rem;
+	transition: all .3s linear;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	border-color: #028794;
+	color: white;
+}
+.navbar-light .navbar-nav .active > .nav-link{
+	color: white;
+	padding: 0.625rem .7rem;
+	box-sizing: border-box;
+	border: 2px solid #028794;
+}
+.full_nav{
+	position: absolute;
+	padding: 2.625rem 0;
+	top: 1px;
+	left: 0;
+	z-index: 10;
+	transition: all .3s linear;
+	background: transparent;
+}
+.navbar-light .navbar-toggler{
+	transition: all .3s linear;
+	border-color: white;
+}
+.navbar-light .navbar-toggler:hover{
+	border-color: #028794;
+}
+/*Navbar CSS End*/
+
+
+
+
+
+
+/*Banner CSS Start*/
+.slide1{
+	background-image: url(../images/banner.jpg);
+	background-position: top left;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 820px;
+	position: relative;
+	z-index: 1;
+}
+.slide1:before{
+	position: absolute;
+	content: "";
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	background-color: rgba(0, 0, 0, 0.58);
+}
+.slide2{
+	background-image: url(../images/banner2.jpg);
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 820px;
+	position: relative;
+	z-index: 1;
+}
+.slide2:before{
+	position: absolute;
+	content: "";
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	background-color: rgba(0, 0, 0, 0.58);
+}
+.slide3{
+	background-image: url(../images/banner3.jpg);
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 820px;
+	position: relative;
+	z-index: 1
+}
+.slide3:before{
+	position: absolute;
+	content: "";
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	background-color: rgba(0, 0, 0, 0.58);
+}
+.banner_text{
+	bottom: 125px;
+	right: 0;
+}
+.banner_text h1{
+	font-size: 40px;
+	font-weight: 400;
+}
+.banner_text h2{
+	font-size: 40px;
+	font-weight: 400;
+}
+ul.slick-dots{
+	position: absolute;
+	bottom: 33px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+ul.slick-dots li{
+	display: inline-block;
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+	border: 3px solid white;
+	margin: 0 5px;
+	transition: all .4s linear;
+}
+ul.slick-dots li.slick-active{
+	background-color: #028794;
+}
+ul.slick-dots li button{
+	display: none;
+}
+/*Banner CSS Start*/
+
+
+
+
+
+/*About Us CSS Start*/
+.body1_text{
+	padding-top: 6rem;
+}
+.body1_text h2{
+	font-size: 26px;
+	color: #028794;
+	margin-bottom: 1.5rem;
+	font-family: Myriad Pro;
+}
+.body1_text p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #222222;
+	font-family: Myriad Pro;
+	width: 100%;
+}
+.body1_image{
+	padding: 3.56rem 0;
+	text-align: right;
+}
+/*About Us CSS End*/
+
+
+
+
+
+
+/*Our Service CSS Start*/
+.body2{
+	background-image: url(../images/our_service.jpg);
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	z-index: 1;
+	padding: 3.625rem 0;
+	box-sizing: border-box;
+}
+.body2:before{
+	position: absolute;
+	content: "";
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	background-color: rgba(0, 0, 0, 0.75);
+}
+.body2 h2{
+	color: #10737e;
+	font-family: Myriad Pro;
+	font-weight: 400;
+	font-size: 24.9px;
+}
+.body2 p{
+	font-family: Myriad Pro;
+	font-weight: 400;
+	font-size: 14px;
+}
+.body2_content .body2_heading h3{
+	font-family: Myriad Pro;
+	font-size: 17px;
+	font-weight: 400;
+	display: inline;
+}
+.body2_content .body2_heading i{
+	height: 52px;
+	width: 52px;
+	text-align: center;
+	line-height: 52px;
+	border-radius: 50%;
+	background-color: #007582;
+	color: white;
+	font-size: 18px;
+}
+.body2_content .body2_heading{
+	text-align: center;
+	box-sizing: border-box;
+}
+.body2_content .body2_para p{
+	width: 100%;
+	font-family: Myriad Pro;
+	font-size: 15px;
+	font-weight: 400;
+}
+/*Our Service CSS End*/
+
+
+
+
+
+
+/*Our Work CSS Start*/
+.body3{
+	padding: 57px;
+}
+.body3_content{
+	padding-bottom: 4rem;
+}
+.body3_header h2{
+	color: #028794;
+	font-family: Myriad Pro;
+	font-size: 25px;
+	font-weight: 400;
+}
+.body3_header p{
+	color: #303132;
+	font-family: Myriad Pro;
+	font-size: 15px;
+	font-weight: 400;
+	width: 55%;
+}
+.body3_button{
+	padding-bottom: 47px;
+}
+.body3_button button{
+	border: 0;
+	height: 35px;
+	width: 100px;
+	text-align: center;
+	line-height: 35px;
+	border-radius: 5px;
+	color: #2f2f2f;
+	transition: all .3s linear;
+}
+.filter_overlay_p{
+	position: relative;
+}
+.filter_overlay_p img{
+	width: 100%;
+}
+.filter_overlay_p .filter_overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(29,139,137,0.81);
+	transition: all .3s linear;
+	opacity: 0;
+}
+.filter_overlay_p .filter_overlay_text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.filter_overlay_p .filter_overlay:hover{
+	opacity: 1;
+}
+.filter_overlay .filter_overlay_text h5{
+	font-family: Myriad Pro;
+	font-size: .8rem;
+	font-weight: 400;
+}
+.filter_overlay .filter_overlay_text i{
+	font-size: .8rem;
+	font-weight: 400;
+}
+.filter_overlay .filter_overlay_text h6{
+	font-family: Myriad Pro;
+	font-size: .8rem;
+	font-weight: 400;
+}
+button.mixitup-control-active{
+	color: white;
+	background-color: #028794;
+}
+/*Our Work CSS ENd*/
+
+
+
+
+
+
+/*Our News CSS Start*/
+.body4_text h4{
+	color: #2a2b2c;
+	font-family: 'Exo', sans-serif;
+	font-weight: 400;
+	font-size: .81rem;
+	padding-bottom: .5rem;
+}
+.body4_text p{
+	font-family: 'Exo', sans-serif;
+	font-weight: 300;
+	font-size: .68rem;
+}
+.body4_text .bton button{
+	height: 2.2rem;
+	width: 6.25rem;
+	border: 1px solid transparent;
+	box-sizing: border-box;
+	background-color: #028794;
+	border-radius: 5px;
+	margin-top: .75rem;
+	font-size: .75rem;
+	color: white;
+	cursor: pointer;
+	transition: all .3s linear;
+}
+.body4_text .bton button:hover{
+	background-color: white;
+	border: 2px solid #028794;
+	box-sizing: border-box;
+	color: black;
+	font-size: .75rem;
+}
+/*Our News CSS End*/
+
+
+
+
+
+
+/*Footer CSS Start*/
+.footer{
+	background-color: #070707;
+}
+.footer_top h3{
+	color: #028794;
+	font-family: Myriad Pro;
+	font-size: 19px;
+	font-weight: 400;
+}
+.footer_top i{
+	color: #028794;
+	font-size: .8rem;
+}
+.footer_top ul li a{
+	font-family: Myriad Pro;
+	font-size: 13px;
+	font-weight: 400;
+}
+.footer_bottom p{
+	color: #a5a5a5;
+	font-family: Myriad Pro;
+	font-size: 14px;
+	font-weight: 400;
+}
+.footer_bottom i{
+	color: white;
+	height: 24px;
+	width: 24px;
+	text-align: center;
+	line-height: 24px;
+	font-size: 12px;
+}
+.footer_bottom .fa-facebook-f{
+	background-color: #0073bf;
+}
+.footer_bottom .fa-twitter{
+	background-color: #00c9df;
+}
+.footer_bottom .fa-flickr{
+	background-color: #2e9bd6;
+}
+.footer_bottom .fa-vimeo-v{
+	background-color: #01cfe6;
+}
+.footer_bottom .fa-youtube{
+	background-color: #fe5e5e;
+}
+/*Footer CSS End*/
+
+
+
+
+
+
+
+/*Top Button CSS Start*/
+.top_btn{
+	position: fixed;
+	right: 22px;
+	bottom: 50px;
+	height: 40px;
+	width: 40px;
+	line-height: 35px;
+	text-align: center;
+	color: #028794;
+	background-color: transparent;
+	font-size: 20px;
+	font-weight: bold;
+	border: 2px solid #028794;
+	border-radius: 50%;
+	cursor: pointer;
+	display: none;
+	z-index: 99;
+}
+/*Top Button CSS End*/
+
+
+
+
+
+
+
+
+
+/*Sticky Menu Start*/
+
+.fixedmenu{
+	position: fixed;
+	padding: 0rem;
+	top: 0px;
+	left: 0px;
+	z-index: 10;
+	background-color: rgba(0, 0, 0, 0.8);
+	transition: all .5s linear;
+}
+
+/*Sticky Menu End*/
+
+
+
+
+
+
+/*Preloader start*/
+
+#preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background: #333 url('http://files.mimoymima.com/images/loading.gif') no-repeat center center;
+}
+
+/*Preloader end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
